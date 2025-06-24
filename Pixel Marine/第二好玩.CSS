@@ -79,9 +79,21 @@ main {
   /* 根據需要添加內容樣式 */
 }
 
-#HOME {
+#桌遊 {
   padding: 20px;
-  background-color: #79afb17a;
+  background-color: #e8cd7a7a;
+  margin: 20px 0;
+}
+
+#電影院 {
+  padding: 20px;
+  background-color: #e8cd7a7a;
+  margin: 20px 0;
+}
+
+#甜點 {
+  padding: 20px;
+  background-color: #e8cd7a7a;
   margin: 20px 0;
 }
 

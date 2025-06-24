@@ -72,28 +72,34 @@ nav ul li a:hover {
 
 /* 內容區域 */
 main {
-  padding: 100px;
+ padding: 30px;
 }
 
-#content {
-  /* 根據需要添加內容樣式 */
-}
 
-#HOME {
+#消費方式 {
   padding: 20px;
-  background-color: #79afb17a;
+  background-color: #7fd4b288;
   margin: 20px 0;
 }
 
-#about-us h2 {
-  font-size: 24px;
-  color: #333;
+#玉子燒 {
+  padding: 20px;
+  background-color: #7fd4b288;
+  margin: 20px 0;
 }
 
-#about-us p {
-  font-size: 16px;
-  color: #666;
+#蟹味棒 {
+  padding: 20px;
+  background-color: #7fd4b288;
+  margin: 20px 0;
 }
+
+#豬五花 {
+  padding: 20px;
+  background-color: #7fd4b288;
+  margin: 20px 0;
+}
+
   @media (max-width: 768px) {
   header h1 {
     font-size: 2em;
@@ -103,7 +109,5 @@ main {
     flex-direction: column;
   }
 
-  nav ul li a {
-    padding: 10px;
-  }
+ 
 }

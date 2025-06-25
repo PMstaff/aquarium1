@@ -1,6 +1,10 @@
+
+
+
+
 body {
 
-    background-image: url('第二.jpg');
+background-image: url('第二.jpg');
 background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -118,4 +122,22 @@ main {
   nav ul li a {
     padding: 10px;
   }
+
+
+.container {
+  display: flex;
+  align-items: center; /* 垂直置中 */
+  justify-content: center; /* 水平置左 */
+  background-color: #f0f0f000; /* 背景顏色 */
+  padding: 10px;
+}
+
+
+
+.image img {
+  width: 100%; /* 圖片寬度自適應 */
+  height: auto; /* 高度自動 */
+}
+
+  
 }

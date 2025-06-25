@@ -135,8 +135,8 @@ main {
 
 
 .image img {
-  width: 100%; /* 圖片寬度自適應 */
-  height: auto; /* 高度自動 */
+  width: 200; /* 圖片寬度自適應 */
+  height: 180; /* 高度自動 */
 }
 
   

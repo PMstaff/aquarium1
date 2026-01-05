@@ -72,7 +72,7 @@ nav ul li a:hover {
 
 /* 內容區域 */
 main {
-  padding: 100px;
+  padding: 30px;
 }
 
 #content {
@@ -81,20 +81,36 @@ main {
 
 #HOME {
   padding: 20px;
-  background-color: #79afb17a;
+  background-color: #79afb1c1;
   margin: 20px 0;
+  color: #ffffff;
+}
+
+#calendar {
+  padding: 20px;
+  background-color: #79afb1c1;
+  margin: 20px 20px;
+  color: #ffffff;
+}
+
+
+#price {
+  padding: 20px;
+  background-color: #79afb1aa;
+  margin: 20px 0;
+  color: #ffffff;
 }
 
 #about-us h2 {
   font-size: 24px;
-  color: #333;
+  color: #ffffff;
 }
 
 #about-us p {
   font-size: 16px;
-  color: #666;
+  color: #ffffff;
 }
-  @media (max-width: 768px) {
+  @media (max-width: 10px) {
   header h1 {
     font-size: 2em;
   }
@@ -106,4 +122,23 @@ main {
   nav ul li a {
     padding: 10px;
   }
+
+.container {
+  display: flex;
+  align-items: center; /* 垂直置中 */
+  justify-content: center; /* 水平置左 */
+  background-color: #f0f0f000; /* 背景顏色 */
+  padding: 10px;
 }
+
+.text {
+  margin-right: 20px; /* 文字與圖片之間的間距 */
+}
+
+.image img {
+  width: 100%; /* 圖片寬度自適應 */
+  height: auto; /* 高度自動 */
+}
+  }
+
+  

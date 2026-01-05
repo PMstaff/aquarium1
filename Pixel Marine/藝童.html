@@ -27,44 +27,76 @@
     </ul>
   </nav>
   <main>
-    <section id="">
-  <h2></h2>
-  <p></p>
+    <section id="HOME">
+  <h2>黏土DIY</h2>
+  <style>
+
+    /* 設定頁面基本樣式 */
+    body, html {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      
+    }
+
+    
+
+    /* 影片容器 */
+    .video-container {
+      margin-left: 10%;
+      margin-right: 10%;
+      position: relative;
+      width: 80%;
+      height: 0;
+      padding-bottom: 100%; /* 16:9 的比例 */
+    }
+
+    /* 影片樣式 */
+    .video-container video {
+      position: absolute;
+      top: 0;
+      margin-left: 0%;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* 保持比例，填滿容器 */
+    }
+  </style>
+
+
+  <div class="video-container">
+  <video autoplay loop muted>
+  <source src="影片檔案路徑.mp4" type="video/mp4">
+  您的瀏覽器不支援 video 標籤。
+ 
+  <source src="/Users/haupanyeung/Desktop/Pixel Marine/Project 01-01_4K.mp4" type="video/mp4">
+  您的瀏覽器不支援 video 標籤。
+</video>
+  <p>歡迎來到 Pixel Marine 水族館！透過這學期的探索與研究，創建了這個獨特的水族館，
+    旨在讓您在不破壞環境的情況下，欣賞到海洋的美麗。在 Pixel Marine，您將看到由我
+    們精心編寫程式所打造的仿生魚，這些魚類栩栩如生，完美模擬了真實海洋生物的動態與姿態。
+    我們的目標是透過科技的力量，讓您感受海洋的魅力，同時提高對環境保護的意識。我們相信，
+    透過這樣的創新方式，能夠讓更多人了解並愛護我們的海洋，為保護這片藍色星球盡一份心力。
+    歡迎您親臨 Pixel Marine，與我們一同探索海洋的奧秘，感受科技與自然的完美結合！</p>
 </section>
-
-
-
 </main>
-
-</main>
-
-</section>
 
 <main>
-    <section id="price">
+  <section id="price">
+  <h2></h2>
+  <p>國際知名畫家北極熊被無情殺害，經過連日調查，最後把嫌疑人鎖定在最後接觸的模特兒身上。
+    兇手究竟會是鼬鼠、兔子、還是鸚鵡呢？請聰明的偵探們協助警方破案，將兇手繩之以法，還北
+    極熊一個公道。</p>
   
 </section>
 
 
 
  </main>
-
- <style>
-    .container {
-      display: flex;
-      align-items: center; /* 垂直置中 */
-      justify-content: flex-start; /* 水平置左 */
-      background-color: #f0f0f0; /* 背景顏色 */
-      padding: 10px;
-    }
-    .text {
-      margin-right: 20px; /* 文字與圖片之間的間距 */
-    }
-    .image {
-      width: 100px; /* 圖片寬度 */
-      height: auto; /* 高度自動 */
-    }
-  </style>
+    
+ 
+ 
     
  
   <script src="app.js"></script>
